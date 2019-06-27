@@ -296,5 +296,19 @@
 <tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Play Video'])[1]/following::button[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Play Video'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Go to item description'])[1]/following::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mute'])[1]/preceding::button[1]</option><option>xpath=(//button[@type='button'])[2]</option><option>//div[@id='islandora_videojs']/div[5]/button</option><option>//div[5]/button</option><option>css=button.vjs-play-control.vjs-control.vjs-button.vjs-playing</option></datalist></td><td></td>
 </tr>
 </tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Blog Posts on Front Page</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://dev.historicpittsburgh.org/<datalist><option>https://dev.historicpittsburgh.org/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=page-landing<datalist><option>id=page-landing</option><option>//div[@id='page-landing']</option><option>//div</option><option>css=#page-landing</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Historic Pittsburgh'])[1]/following::h2[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Historic Pittsburgh'])[1]/following::h2[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Configure block'])[5]/following::h2[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Configure block'])[6]/preceding::h2[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Pittsburgh Photographic Library (Updated March 2019)'])[1]/preceding::h2[1]</option><option>//div[@id='block-block-15']/h2</option><option>//div[2]/div/div/div[2]/h2</option><option>css=#block-block-15 &gt; h2</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>id=footer-col1<datalist><option>id=footer-col1</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='more'])[1]/following::div[2]</option><option>//div[@id='footer-col1']</option><option>//div[@id='footer']/div</option><option>//div[3]/div</option><option>css=#footer-col1</option></datalist></td><td></td>
+</tr>
+</tbody></table>
 </body>
 </html>
