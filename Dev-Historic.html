@@ -24,6 +24,48 @@
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
+<tr><td rowspan="1" colspan="3">Run-Cron</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://dev.historicpittsburgh.org/admin/config/system/cron<datalist><option>https://dev.historicpittsburgh.org/admin/config/system/cron</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=edit-run<datalist><option>id=edit-run</option><option>name=op</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Default'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='https://dev.historicpittsburgh.org/cron.php?cron_key=YSeP4lJtCHnE13JjdUI0FAJwY-Qy_ZGlRiU_GsUjEpM'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Run cron every'])[1]/preceding::input[1]</option><option>//input[@id='edit-run']</option><option>//form[@id='system-cron-settings']/div/input</option><option>//input</option><option>css=#edit-run</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Default'])[1]/following::div[6]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Default'])[1]/following::div[6]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Error message'])[1]/preceding::div[1]</option><option>//div[@id='console']/div</option><option>//div[2]/div[2]/div</option><option>css=div.messages.status</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Audio-HillHerman</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://dev.historicpittsburgh.org/islandora/object/pitt:31735065784609/from_search/-0<datalist><option>https://dev.historicpittsburgh.org/islandora/object/pitt:31735065784609/from_search/-0</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=play-pause<datalist><option>id=play-pause</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Hill, Herman - September 23, 1997 - Tape 1, Side 1'])[1]/preceding::div[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Playlist'])[1]/preceding::div[3]</option><option>//div[@id='play-pause']</option><option>//div[@id='central-controls']/div[2]</option><option>//div[2]/div[2]/div/div[2]</option><option>css=#play-pause</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=play-pause<datalist><option>id=play-pause</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Hill, Herman - September 23, 1997 - Tape 1, Side 1'])[1]/preceding::div[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Playlist'])[1]/preceding::div[3]</option><option>//div[@id='play-pause']</option><option>//div[@id='central-controls']/div[2]</option><option>//div[2]/div[2]/div/div[2]</option><option>css=#play-pause</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=next<datalist><option>id=next</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Hill, Herman - September 23, 1997 - Tape 1, Side 1'])[1]/preceding::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Playlist'])[1]/preceding::div[2]</option><option>//div[@id='next']</option><option>//div[@id='central-controls']/div[3]</option><option>//div[2]/div[2]/div/div[3]</option><option>css=#next</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=play-pause<datalist><option>id=play-pause</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Hill, Herman - September 23, 1997 - Tape 1, Side 2'])[1]/preceding::div[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Playlist'])[1]/preceding::div[3]</option><option>//div[@id='play-pause']</option><option>//div[@id='central-controls']/div[2]</option><option>//div[2]/div[2]/div/div[2]</option><option>css=#play-pause</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Playlist'])[1]/preceding::span[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Playlist'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Hill, Herman - September 23, 1997 - Tape 1, Side 1'])[1]/preceding::span[1]</option><option>//div[@id='meta-container']/span</option><option>//div[3]/span</option><option>css=span.song-name</option></datalist></td><td>Hill, Herman - September 23, 1997 - Tape 1, Side 2</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Book-Manuscript-Fullscreen</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://dev.historicpittsburgh.org/islandora/object/pitt:31735061277665/from_search/-3#page/1/mode/2up<datalist><option>https://dev.historicpittsburgh.org/islandora/object/pitt:31735061277665/from_search/-3#page/1/mode/2up</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='William Findley to Alexander Addison,...'])[3]/following::button[8]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='William Findley to Alexander Addison,...'])[3]/following::button[8]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='William Findley to Alexander Addison,...'])[2]/following::button[8]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Page 1 of 6'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Configure block'])[4]/preceding::button[6]</option><option>//span[@id='BRtoolbarbuttons']/span[2]/button</option><option>//span[2]/button</option><option>css=button.BRicon.full</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='William Findley to Alexander Addison,...'])[3]/following::button[8]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='William Findley to Alexander Addison,...'])[3]/following::button[8]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='William Findley to Alexander Addison,...'])[2]/following::button[8]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Page 1 of 6'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Configure block'])[4]/preceding::button[6]</option><option>//span[@id='BRtoolbarbuttons']/span[2]/button</option><option>//span[2]/button</option><option>css=button.BRicon.full</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
 <tr><td rowspan="1" colspan="3">Photo Zoom</td></tr>
 </thead>
 <tbody>
@@ -62,6 +104,196 @@
 <tr><td>verifyTitle</td><td>Aerial View of the Pumping Stations | Historic Pittsburgh<datalist><option>Aerial View of the Pumping Stations | Historic Pittsburgh</option></datalist></td><td></td>
 </tr>
 <tr><td>verifyText</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Identifier'])[1]/following::li[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Identifier'])[1]/following::li[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='September 2, 1932'])[2]/following::li[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/preceding::li[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Type'])[1]/preceding::li[3]</option><option>//div[@id='islandora-sidebar-meta']/fieldset/div/ul/li[8]</option><option>//li[8]</option></datalist></td><td>886.15736.AP</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Book-ManuscriptAvailable</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://dev.historicpittsburgh.org/home<datalist><option>https://dev.historicpittsburgh.org/home</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[3]/following::a[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[3]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[2]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Highlights'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Highlights'])[2]/preceding::a[1]</option><option>//div[@id='displaybox']/div/div/a</option><option>//a[contains(@href, '/collections/A*')]</option><option>//div[2]/div/div/div/a</option><option>css=a.info</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Alexander Addison Papers<datalist><option>link=Alexander Addison Papers</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='African American&amp;nbsp;Construction Workers&amp;nbsp;of Pittsburgh Photographs'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Aerial Photographs of Pittsburgh'])[1]/following::a[6]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Alexander Cumming Papers'])[1]/preceding::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Allegheny Conference on Community Development Photographs'])[1]/preceding::a[4]</option><option>//a[contains(text(),'Alexander Addison Papers')]</option><option>//div[@id='block-system-main']/div/div[5]/div/h2/span/a</option><option>xpath=(//a[contains(@href, '/collection/alexander-addison-papers')])[2]</option><option>//div[5]/div/h2/span/a</option><option>css=div.views-row.views-row-4.views-row-even &gt; h2.views-field.views-field-fgs-label-s &gt; span.field-content &gt; a</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Charles Nisbet to Alexander Addison,<datalist><option>link=Charles Nisbet to Alexander Addison,</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Title'])[3]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='last »'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Date'])[4]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='August 31, 1797'])[1]/preceding::a[1]</option><option>//a[contains(text(),'Charles Nisbet to Alexander Addison,')]</option><option>//div[@id='solr-search-results']/div[2]/div/div/div[2]/ul/li/div[2]/a</option><option>//a[contains(@href, '/islandora/object/pitt:31735061278135/from_search/-0#page/1/mode/2up')]</option><option>//li/div[2]/a</option><option>css=div.solr-fieldvalue &gt; a[title="Charles Nisbet to Alexander Addison,"]</option></datalist></td><td></td>
+</tr>
+<tr><td>verifyTitle</td><td>Charles Nisbet to Alexander Addison,...<datalist><option>Charles Nisbet to Alexander Addison,...</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Book-Manuscript-PageNav</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://dev.historicpittsburgh.org/home<datalist><option>https://dev.historicpittsburgh.org/home</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[3]/following::a[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[3]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[2]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Highlights'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Highlights'])[2]/preceding::a[1]</option><option>//div[@id='displaybox']/div/div/a</option><option>//a[contains(@href, '/collections/A*')]</option><option>//div[2]/div/div/div/a</option><option>css=a.info</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Alexander Addison Papers<datalist><option>link=Alexander Addison Papers</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='African American&amp;nbsp;Construction Workers&amp;nbsp;of Pittsburgh Photographs'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Aerial Photographs of Pittsburgh'])[1]/following::a[6]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Alexander Cumming Papers'])[1]/preceding::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Allegheny Conference on Community Development Photographs'])[1]/preceding::a[4]</option><option>//a[contains(text(),'Alexander Addison Papers')]</option><option>//div[@id='block-system-main']/div/div[5]/div/h2/span/a</option><option>xpath=(//a[contains(@href, '/collection/alexander-addison-papers')])[2]</option><option>//div[5]/div/h2/span/a</option><option>css=div.views-row.views-row-4.views-row-even &gt; h2.views-field.views-field-fgs-label-s &gt; span.field-content &gt; a</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Charles Nisbet to Alexander Addison,<datalist><option>link=Charles Nisbet to Alexander Addison,</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Title'])[3]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='last »'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Date'])[4]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='August 31, 1797'])[1]/preceding::a[1]</option><option>//a[contains(text(),'Charles Nisbet to Alexander Addison,')]</option><option>//div[@id='solr-search-results']/div[2]/div/div/div[2]/ul/li/div[2]/a</option><option>//a[contains(@href, '/islandora/object/pitt:31735061278135/from_search/-0#page/1/mode/2up')]</option><option>//li/div[2]/a</option><option>css=div.solr-fieldvalue &gt; a[title="Charles Nisbet to Alexander Addison,"]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Page 1 of 10'])[1]/following::button[2]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Page 1 of 10'])[1]/following::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Charles Nisbet to Alexander Addison,...'])[3]/following::button[10]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Configure block'])[4]/preceding::button[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='multiple institutions'])[1]/preceding::button[4]</option><option>//div[@id='BRpage']/button[2]</option><option>//div[2]/button[2]</option><option>css=button.BRicon.book_right</option></datalist></td><td></td>
+</tr>
+<tr><td>verifyValue</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Page 3 of 10'])[1]/following::button[2]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Page 3 of 10'])[1]/following::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Charles Nisbet to Alexander Addison,...'])[3]/following::button[10]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Configure block'])[4]/preceding::button[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='multiple institutions'])[1]/preceding::button[4]</option><option>//div[@id='BRpage']/button[2]</option><option>//div[2]/button[2]</option><option>css=button.BRicon.book_right</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Page 3 of 10'])[1]/following::button[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Page 3 of 10'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Charles Nisbet to Alexander Addison,...'])[3]/following::button[9]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Configure block'])[4]/preceding::button[5]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='multiple institutions'])[1]/preceding::button[5]</option><option>//div[@id='BRpage']/button</option><option>//div[2]/button</option><option>css=button.BRicon.book_left</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Book-Manuscript-SideBySide</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://dev.historicpittsburgh.org/home<datalist><option>https://dev.historicpittsburgh.org/home</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[3]/following::a[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[3]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[2]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Highlights'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Highlights'])[2]/preceding::a[1]</option><option>//div[@id='displaybox']/div/div/a</option><option>//a[contains(@href, '/collections/A*')]</option><option>//div[2]/div/div/div/a</option><option>css=a.info</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Alexander Addison Papers<datalist><option>link=Alexander Addison Papers</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='African American&amp;nbsp;Construction Workers&amp;nbsp;of Pittsburgh Photographs'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Aerial Photographs of Pittsburgh'])[1]/following::a[6]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Alexander Cumming Papers'])[1]/preceding::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Allegheny Conference on Community Development Photographs'])[1]/preceding::a[4]</option><option>//a[contains(text(),'Alexander Addison Papers')]</option><option>//div[@id='block-system-main']/div/div[5]/div/h2/span/a</option><option>xpath=(//a[contains(@href, '/collection/alexander-addison-papers')])[2]</option><option>//div[5]/div/h2/span/a</option><option>css=div.views-row.views-row-4.views-row-even &gt; h2.views-field.views-field-fgs-label-s &gt; span.field-content &gt; a</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Charles Nisbet to Alexander Addison,<datalist><option>link=Charles Nisbet to Alexander Addison,</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Title'])[3]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='last »'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Date'])[4]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='August 31, 1797'])[1]/preceding::a[1]</option><option>//a[contains(text(),'Charles Nisbet to Alexander Addison,')]</option><option>//div[@id='solr-search-results']/div[2]/div/div/div[2]/ul/li/div[2]/a</option><option>//a[contains(@href, '/islandora/object/pitt:31735061278135/from_search/-0#page/1/mode/2up')]</option><option>//li/div[2]/a</option><option>css=div.solr-fieldvalue &gt; a[title="Charles Nisbet to Alexander Addison,"]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Page 1 of 10'])[1]/following::button[4]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Page 1 of 10'])[1]/following::button[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Charles Nisbet to Alexander Addison,...'])[3]/following::button[12]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Configure block'])[4]/preceding::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='multiple institutions'])[1]/preceding::button[2]</option><option>//div[@id='BRpage']/button[4]</option><option>//div[2]/button[4]</option><option>css=button.BRicon.twopg.desktop-only</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Page 1 of 10'])[1]/following::button[3]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Page 1 of 10'])[1]/following::button[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Charles Nisbet to Alexander Addison,...'])[3]/following::button[11]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Configure block'])[4]/preceding::button[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='multiple institutions'])[1]/preceding::button[3]</option><option>//div[@id='BRpage']/button[3]</option><option>//div[2]/button[3]</option><option>css=button.BRicon.onepg.desktop-only</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Page 1 of 10'])[1]/following::button[4]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Page 1 of 10'])[1]/following::button[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Charles Nisbet to Alexander Addison,...'])[3]/following::button[12]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Configure block'])[4]/preceding::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='multiple institutions'])[1]/preceding::button[2]</option><option>//div[@id='BRpage']/button[4]</option><option>//div[2]/button[4]</option><option>css=button.BRicon.twopg.desktop-only</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Page 1 of 10'])[1]/following::button[5]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Page 1 of 10'])[1]/following::button[5]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Charles Nisbet to Alexander Addison,...'])[3]/following::button[13]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Configure block'])[4]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='multiple institutions'])[1]/preceding::button[1]</option><option>//div[@id='BRpage']/button[5]</option><option>//button[5]</option><option>css=button.BRicon.thumb.desktop-only</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Page 1 of 10'])[1]/following::button[4]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Page 1 of 10'])[1]/following::button[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Charles Nisbet to Alexander Addison,...'])[3]/following::button[12]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Configure block'])[4]/preceding::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='multiple institutions'])[1]/preceding::button[2]</option><option>//div[@id='BRpage']/button[4]</option><option>//div[2]/button[4]</option><option>css=button.BRicon.twopg.desktop-only</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Book-Manuscript-Search</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://dev.historicpittsburgh.org/islandora/object/pitt:31735070000249/from_search/-0#page/1/mode/2up<datalist><option>https://dev.historicpittsburgh.org/islandora/object/pitt:31735070000249/from_search/-0#page/1/mode/2up</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Charles M. Husband to Mary E. Lazenby,...'])[3]/following::button[2]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Charles M. Husband to Mary E. Lazenby,...'])[3]/following::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Charles M. Husband to Mary E. Lazenby,...'])[2]/following::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Page 1 of 4'])[1]/preceding::button[7]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Configure block'])[4]/preceding::button[12]</option><option>//span[@id='BRtoolbarbuttons']/span[2]/span/button[2]</option><option>//button[2]</option><option>css=button.BRicon.full_text.js-tooltip.cboxElement.bt-active.bt-active</option></datalist></td><td></td>
+</tr>
+<tr><td>verifyTitle</td><td>Charles M. Husband to Mary E. Lazenby,...<datalist><option>Charles M. Husband to Mary E. Lazenby,...</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Ensure Logo Is Present</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://dev.historicpittsburgh.org/home<datalist><option>https://dev.historicpittsburgh.org/home</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Related Sites'])[1]/following::img[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Related Sites'])[1]/following::img[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='FAQ'])[1]/following::img[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::img[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[1]/preceding::img[1]</option><option>//img[@alt='link to Historic Pittsburgh homepage']</option><option>//a[@id='logo']/img</option><option>//img</option><option>css=img.logo</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Ensure all 6 Links on Front Page are available</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://dev.historicpittsburgh.org/home<datalist><option>https://dev.historicpittsburgh.org/home</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Related Sites'])[1]/following::div[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Related Sites'])[1]/following::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='FAQ'])[1]/following::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[1]/preceding::div[1]</option><option>//div[@id='header']/div[2]</option><option>//div/div/div[2]</option><option>css=div.banner</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[3]/following::a[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[3]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[2]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Highlights'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Highlights'])[2]/preceding::a[1]</option><option>//div[@id='displaybox']/div/div/a</option><option>//a[contains(@href, '/collections/A*')]</option><option>//div[2]/div[2]/div/div/div/a</option><option>css=a.info</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Highlights'])[1]/following::div[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Highlights'])[1]/following::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[3]/following::div[2]</option><option>//div[@id='displaybox']/div[2]/div</option><option>//div[2]/div[2]/div/div[2]/div</option><option>css=div.view.smallbox.gray &gt; div.mask</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Exhibits'])[3]/following::a[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Exhibits'])[3]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Exhibits'])[2]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Chronology'])[2]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Chronology'])[3]/preceding::a[1]</option><option>//div[@id='displaybox']/div[3]/div/a</option><option>xpath=(//a[contains(@href, '/exhibits')])[2]</option><option>//div[2]/div[2]/div/div[3]/div/a</option><option>css=div.view.smallbox.blue &gt; div.mask &gt; a.info</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Partners'])[3]/following::a[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Partners'])[3]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Partners'])[2]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Configure block'])[5]/preceding::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Historic Pittsburgh'])[1]/preceding::a[3]</option><option>//div[@id='displaybox']/div[6]/div/a</option><option>xpath=(//a[contains(@href, '/partners')])[2]</option><option>//div[6]/div/a</option><option>css=div.view.smallbox.cyan &gt; div.mask &gt; a.info</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Finding Aids'])[3]/following::a[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Finding Aids'])[3]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Finding Aids'])[2]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Partners'])[2]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Partners'])[3]/preceding::a[1]</option><option>//div[@id='displaybox']/div[5]/div/a</option><option>xpath=(//a[contains(@href, '/findingaids')])[2]</option><option>//div[5]/div/a</option><option>css=div.view.smallbox.green &gt; div.mask &gt; a.info</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Ensure all ULS Links work</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://dev.historicpittsburgh.org/home<datalist><option>https://dev.historicpittsburgh.org/home</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Related Sites'])[1]/following::div[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Related Sites'])[1]/following::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='FAQ'])[1]/following::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[1]/preceding::div[1]</option><option>//div[@id='header']/div[2]</option><option>//div/div/div[2]</option><option>css=div.banner</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=About<datalist><option>link=About</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Configure block'])[2]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact Us'])[1]/following::a[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='News'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='FAQ'])[1]/preceding::a[2]</option><option>//a[contains(text(),'About')]</option><option>//div[@id='block-block-21']/div[2]/div/ul/li/a</option><option>//a[contains(@href, '/about')]</option><option>//div[2]/div[2]/div/ul/li/a</option><option>css=a[title="http://histpitt.library.pitt.edu/about"]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=News<datalist><option>link=News</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='About'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Configure block'])[2]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='FAQ'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Related Sites'])[1]/preceding::a[2]</option><option>//a[contains(text(),'News')]</option><option>//div[@id='block-block-21']/div[2]/div/ul/li[2]/a</option><option>//a[contains(@href, '/news')]</option><option>//li[2]/a</option><option>css=a[title="http://histpitt.library.pitt.edu/news"]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=FAQ<datalist><option>link=FAQ</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='News'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='About'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Related Sites'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::a[3]</option><option>//a[contains(text(),'FAQ')]</option><option>//div[@id='block-block-21']/div[2]/div/ul/li[3]/a</option><option>//a[contains(@href, '/faq')]</option><option>//li[3]/a</option><option>css=a[title="FAQ"]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Related Sites<datalist><option>link=Related Sites</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='FAQ'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='News'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[1]/preceding::a[3]</option><option>//a[contains(text(),'Related Sites')]</option><option>//div[@id='block-block-21']/div[2]/div/ul/li[4]/a</option><option>//a[contains(@href, '/related-sites')]</option><option>//li[4]/a</option><option>css=a[title="Related sites"]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Contact Us<datalist><option>link=Contact Us</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Configure block'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Configure block'])[2]/preceding::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='About'])[1]/preceding::a[3]</option><option>//a[contains(text(),'Contact Us')]</option><option>//div[@id='askabutton']/a</option><option>//a[contains(@href, '/contact-us')]</option><option>//div[2]/div/div/div/div/div/div[2]/div/a</option><option>css=a.askanarch</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">SiteWide Search "Pittsburgh"</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://dev.historicpittsburgh.org/home<datalist><option>https://dev.historicpittsburgh.org/home</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=edit-islandora-simple-search-query<datalist><option>id=edit-islandora-simple-search-query</option><option>name=islandora_simple_search_query</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Configure block'])[3]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Advanced Search'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Configure block'])[4]/preceding::input[5]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[2]/preceding::input[5]</option><option>//input[@id='edit-islandora-simple-search-query']</option><option>//div[@id='edit-simple']/div/input</option><option>//input</option><option>css=#edit-islandora-simple-search-query</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=edit-islandora-simple-search-query<datalist><option>id=edit-islandora-simple-search-query</option><option>name=islandora_simple_search_query</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Configure block'])[3]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Advanced Search'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Configure block'])[4]/preceding::input[5]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[2]/preceding::input[5]</option><option>//input[@id='edit-islandora-simple-search-query']</option><option>//div[@id='edit-simple']/div/input</option><option>//input</option><option>css=#edit-islandora-simple-search-query</option></datalist></td><td>pittsburgh</td>
+</tr>
+<tr><td>submit</td><td>id=islandora-solr-simple-search-form<datalist><option>id=islandora-solr-simple-search-form</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Power Plant Removal<datalist><option>link=Power Plant Removal</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Title'])[3]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='last »'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Creator'])[4]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Pittsburgh and Lake Erie Railroad Company'])[2]/preceding::a[1]</option><option>//a[contains(text(),'Power Plant Removal')]</option><option>//div[@id='solr-search-results']/div[2]/div/div/div[2]/ul/li/div[2]/a</option><option>//a[contains(@href, '/islandora/object/pitt:8223.7320.RR/from_search/0b3d30221bd4744b1bca9a59c4360d98-0')]</option><option>//li/div[2]/a</option><option>css=div.solr-fieldvalue &gt; a[title="Power Plant Removal"]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Next ›'])[1]/following::h1[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Next ›'])[1]/following::h1[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back to Search Results'])[1]/following::h1[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Go to item description'])[1]/preceding::h1[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='In collections'])[1]/preceding::h1[1]</option><option>//div[@id='islandora-object-full']/h1</option><option>//h1</option><option>css=h1.item-title</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Clear-Cache</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://dev.historicpittsburgh.org/admin/config/development/performance<datalist><option>https://dev.historicpittsburgh.org/admin/config/development/performance</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=edit-clear<datalist><option>id=edit-clear</option><option>name=op</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Clear cache'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='available updates'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Caching'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Cache pages for anonymous users'])[1]/preceding::input[2]</option><option>//input[@id='edit-clear']</option><option>//fieldset[@id='edit-clear-cache']/div/input</option><option>//input</option><option>css=#edit-clear</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='available updates'])[1]/following::div[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='available updates'])[1]/following::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Error message'])[1]/following::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Clear cache'])[1]/preceding::div[1]</option><option>//div[@id='console']/div[2]</option><option>//div[2]/div[2]/div[2]</option><option>css=div.messages.status</option></datalist></td><td>Status message Caches cleared.</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">No Updates Needed</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://dev.historicpittsburgh.org/admin/reports/status<datalist><option>https://dev.historicpittsburgh.org/admin/reports/status</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementNotPresent</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='more information'])[1]/following::div[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='more information'])[1]/following::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Memcache'])[1]/following::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Module and theme update status'])[1]/preceding::div[1]</option><option>//div[@id='block-system-main']/div/table/tbody/tr[27]/td/div</option><option>//tr[27]/td/div</option><option>css=div[title="Error"]</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Video-Play</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://dev.historicpittsburgh.org/islandora/object/pitt:1188/from_search/b60f142e2b409bfe6298414f06c17d50-2<datalist><option>https://dev.historicpittsburgh.org/islandora/object/pitt:1188/from_search/b60f142e2b409bfe6298414f06c17d50-2</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Go to item description'])[1]/following::div[4]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Go to item description'])[1]/following::div[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Next ›'])[1]/following::div[9]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Play Video'])[1]/preceding::div[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Play'])[1]/preceding::div[3]</option><option>//div[@id='islandora_videojs']/div[2]</option><option>//div[3]/div/div/div/div/div/div/div[2]</option><option>css=div.vjs-poster</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Play Video'])[1]/following::button[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Play Video'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Go to item description'])[1]/following::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mute'])[1]/preceding::button[1]</option><option>xpath=(//button[@type='button'])[2]</option><option>//div[@id='islandora_videojs']/div[5]/button</option><option>//div[5]/button</option><option>css=button.vjs-play-control.vjs-control.vjs-button.vjs-playing</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Video-FullScreen</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://dev.historicpittsburgh.org/islandora/object/pitt:1188/from_search/b60f142e2b409bfe6298414f06c17d50-2<datalist><option>https://dev.historicpittsburgh.org/islandora/object/pitt:1188/from_search/b60f142e2b409bfe6298414f06c17d50-2</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Go to item description'])[1]/following::div[4]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Go to item description'])[1]/following::div[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Next ›'])[1]/following::div[9]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Play Video'])[1]/preceding::div[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Play'])[1]/preceding::div[3]</option><option>//div[@id='islandora_videojs']/div[2]</option><option>//div[3]/div/div/div/div/div/div/div[2]</option><option>css=div.vjs-poster</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Captions'])[1]/following::button[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Captions'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)=', selected'])[3]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Foreground'])[1]/preceding::button[1]</option><option>xpath=(//button[@type='button'])[3]</option><option>//div[@id='islandora_videojs']/div[5]/button[2]</option><option>//button[2]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Captions'])[1]/following::button[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Captions'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)=', selected'])[3]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Foreground'])[1]/preceding::button[1]</option><option>xpath=(//button[@type='button'])[3]</option><option>//div[@id='islandora_videojs']/div[5]/button[2]</option><option>//button[2]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Play Video'])[1]/following::button[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Play Video'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Go to item description'])[1]/following::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mute'])[1]/preceding::button[1]</option><option>xpath=(//button[@type='button'])[2]</option><option>//div[@id='islandora_videojs']/div[5]/button</option><option>//div[5]/button</option><option>css=button.vjs-play-control.vjs-control.vjs-button.vjs-playing</option></datalist></td><td></td>
 </tr>
 </tbody></table>
 </body>
