@@ -136,5 +136,23 @@
 <tr><td>assertElementPresent</td><td>id=wrap_headers<datalist><option>id=wrap_headers</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Skip to main content'])[1]/following::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Find'])[1]/preceding::div[10]</option><option>//div[@id='wrap_headers']</option><option>//div[3]</option><option>css=#wrap_headers</option></datalist></td><td></td>
 </tr>
 </tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Database-Test</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://stage.library.pitt.edu/<datalist><option>https://stage.library.pitt.edu/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=quicktabs-tab-quicktab-3<datalist><option>id=quicktabs-tab-quicktab-3</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='E-Journals'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='PittCat Classic'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Guides'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Subject Specialists'])[3]/preceding::a[2]</option><option>xpath=(//a[contains(text(),'Databases')])[2]</option><option>//a[@id='quicktabs-tab-quicktab-3']</option><option>//div[@id='quicktabs-quicktab']/div/ul/li[4]/a</option><option>//a[contains(@href, '/home?qt-quicktab=3#qt-quicktab')]</option><option>//div[2]/div/div[2]/div/div/ul/li[4]/a</option><option>css=#quicktabs-tab-quicktab-3</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=A<datalist><option>link=A</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='By Subject'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='B'])[1]/preceding::a[1]</option><option>xpath=(//a[contains(text(),'A')])[33]</option><option>//div[@id='node-152']/div[2]/div/div/div/div/span[2]/a</option><option>//a[contains(@href, '/db/a')]</option><option>//span[2]/a</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=ABYZ News Links<datalist><option>link=ABYZ News Links</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Connect to the database'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='A-R Editions’ Online Music Anthology'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Connect to this database'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Academic OneFile'])[1]/preceding::a[2]</option><option>//a[contains(text(),'ABYZ News Links')]</option><option>//div[@id='block-system-main']/div/div/div[3]/div[2]/div/span[2]/a</option><option>//a[contains(@href, '#databases_a_z-page-1')]</option><option>//div[2]/div/span[2]/a</option><option>css=div.views-field.views-field-title.views-accordion-header.ui-accordion-header.ui-helper-reset.ui-state-default.ui-corner-all.ui-state-hover &gt; span.field-content &gt; a</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Connect to this database<datalist><option>link=Connect to this database</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ABYZ News Links'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Connect to the database'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Academic OneFile'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Connect to this database'])[2]/preceding::a[2]</option><option>//a[contains(text(),'Connect to this database')]</option><option>//div[@id='block-system-main']/div/div/div[3]/div[2]/div[2]/div/div/p/a</option><option>//a[@href='http://www.abyznewslinks.com/']</option><option>//div[2]/div[2]/div/div/p/a</option><option>css=div.ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom.ui-accordion-content-active &gt; div.views-field.views-field-body &gt; div.field-content &gt; p &gt; a</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Search ABYZ'])[1]/preceding::font[2]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Search ABYZ'])[1]/preceding::font[2]</option><option>//font</option><option>css=font</option></datalist></td><td>ABYZ News Links</td>
+</tr>
+</tbody></table>
 </body>
 </html>
