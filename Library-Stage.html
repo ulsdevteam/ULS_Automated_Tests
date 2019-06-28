@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>Library-Stage</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Hours-Test</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://stage.library.pitt.edu/<datalist><option>https://stage.library.pitt.edu/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Today's Hours<datalist><option>link=Today's Hours</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Need help? Chat with us!'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Business Librarian, an Asian Studies Librarian, and an AUL for&amp;nbsp;for Research and Learning!'])[1]/following::a[11]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Hillman Library'])[2]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='*Archives &amp; Special Collections (Hillman)'])[1]/preceding::a[2]</option><option>//div[@id='block-block-3']/h2/a</option><option>//a[contains(@href, '#block-block-3')]</option><option>//div[3]/h2/a</option><option>css=h2.collapsiblock.collapsiblockCollapsed &gt; a</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>id=block-block-3<datalist><option>id=block-block-3</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Need help? Chat with us!'])[1]/following::div[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Business Librarian, an Asian Studies Librarian, and an AUL for&amp;nbsp;for Research and Learning!'])[1]/following::div[5]</option><option>//div[@id='block-block-3']</option><option>//div[@id='sidebar']/div/div[3]</option><option>//div[2]/div/div[3]</option><option>css=#block-block-3</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Events-Test</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://stage.library.pitt.edu/<datalist><option>https://stage.library.pitt.edu/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=eventsList<datalist><option>id=eventsList</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='view a complete list'])[2]/following::h1[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Subject Specialists'])[4]/following::h1[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='more...'])[1]/preceding::h1[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Quick Links'])[1]/preceding::h1[1]</option><option>//h1[@id='eventsList']</option><option>//div[@id='block-views-today-at-the-library-block']/div/div/div/div/div/div/h1</option><option>//h1</option><option>css=#eventsList</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>id=block-views-today-at-the-library-block<datalist><option>id=block-views-today-at-the-library-block</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='view a complete list'])[2]/following::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Subject Specialists'])[4]/following::div[14]</option><option>//div[@id='block-views-today-at-the-library-block']</option><option>//div[@id='main']/div[2]/div[3]</option><option>//div[2]/div[3]</option><option>css=#block-views-today-at-the-library-block</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">ULS_Logo-Test</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://stage.library.pitt.edu/<datalist><option>https://stage.library.pitt.edu/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=content<datalist><option>id=content</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Ask Us'])[1]/following::div[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Giving'])[1]/following::div[3]</option><option>//div[@id='content']</option><option>//div[@id='wrap_maincontent']/div/div</option><option>//div[4]/div/div</option><option>css=#content</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>id=wrap_headers<datalist><option>id=wrap_headers</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Skip to main content'])[1]/following::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Find'])[1]/preceding::div[10]</option><option>//div[@id='wrap_headers']</option><option>//div[3]</option><option>css=#wrap_headers</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
